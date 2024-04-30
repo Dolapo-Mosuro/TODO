@@ -28,7 +28,7 @@ h1 {
 }
 
 #input_box {
-	width: 200px;
+	width: 300px;
 	padding: 10px;
 	border: 1px solid #8a8a8a;
 	border-radius: 5px;
@@ -41,7 +41,7 @@ h1 {
 	cursor: pointer;
 	color: azure;
 	transition: 0.4s;
-	margin: 10px;
+	margin: 10px 0px;
 	padding: 10px;
 	border: none;
 	border-radius: 5px;
