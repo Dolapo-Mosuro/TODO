@@ -1,0 +1,98 @@
+body {
+	background: rgb(255, 250, 226);
+
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif, sans-serif;
+	text-align: left;
+	margin-top: 100px;
+}
+
+#main-container {
+	background: rgb(255, 255, 255);
+	width: 600px;
+	margin: 0 auto;
+	border: 2px solid #1607347e;
+	padding: 20px;
+	color: rgb(26, 28, 39);
+	border-radius: 5px;
+}
+
+#header {
+	margin: 5px;
+	font-size: 16px;
+	text-align: left;
+}
+
+h1 {
+	margin-bottom: 20px;
+}
+
+#input_box {
+	width: 200px;
+	padding: 10px;
+	border: 1px solid #8a8a8a;
+	border-radius: 5px;
+	margin-right: 5px;
+	font-size: 20px;
+}
+
+#input-button {
+	font-size: 20px;
+	cursor: pointer;
+	color: azure;
+	transition: 0.4s;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	background-color: #4a0e5d;
+}
+
+#input-button:hover {
+	background-color: #9eb7fd;
+}
+ul {
+	list-style: none;
+	padding: 0;
+	margin-top: 20px;
+	text-align: left;
+}
+
+li {
+	border: 1px solid white;
+	border-radius: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+	margin-top: 10px;
+}
+
+.edit-btn {
+	float: right;
+	margin: 3px 5px;
+	border: none;
+	padding: 3px 5px;
+	background: #4a0e5d;
+	color: azure;
+	transition: 0.4s;
+	padding: 0 10px;
+	border-radius: 5px;
+}
+.delete-btn {
+	float: right;
+	color: crimson;
+	cursor: pointer;
+	margin: 3px 5px;
+	border: none;
+	padding: 3px 5px;
+	background: none;
+}
+
+.completed {
+	text-decoration: line-through;
+	color: gray;
+	border: 1px solid gray;
+}
+.completed {
+	text-decoration: solid line-through;
+	color: rgb(5, 3, 3);
+	border: 1px solid gray;
+}
